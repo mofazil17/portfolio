@@ -1,5 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Zen+Kurenaido&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
 
 html{
     font-family: 'Ubuntu', sans-serif;
 }
+
+/* ++++++++ navigation styling ++++++++ */
+
+.header_area .main-menu .navbar{
+    padding: 0.5rem 8rem;
+    box-shadow: 0px -10px 100px #985258;
+    align-items: center;
+    background-color: #1d5174;
+}
+.header_area .main-menu .navbar .navbar-brand img{
+    width: 200px;
+}
+.header_area .main-menu .navbar .nav-item{
+    margin: 0 0.5rem;
+    font-weight: 1000;
+
+}
+.header_area .main-menu .navbar .nav-item a{
+    color:white;
+}
+
+.header_area .main-menu .navbar .nav-item a:hover{
+    color: #985258;
+    font-weight: 1000;
+}
+
+
+/* ++++++++ navigation styling ++++++++ */
