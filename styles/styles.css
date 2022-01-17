@@ -29,7 +29,7 @@ html{
     z-index: 1;
     right: 0px;
     top: 500px;
-    width: 500px;
+    width: 300px;
     background-color: transparent;
 }
 
@@ -102,8 +102,20 @@ html{
     font-size: 1.5rem;
     margin: 1rem;
     z-index: 2;
+    font-weight:500;
+    font-family:'Ubuntu'sans-serif ;
+    background-image: linear-gradient(to right, #05396B 0%, #657486 51%, #05396B 100%);
+}
+.site-menu .container .row .left .container .btn:hover{
+    transform: scale(1.1);
+    transition: 0.3s all ease-in-out;
+    background-color: #EDF5E0;
+    background-image: linear-gradient(to right, #05396B 0%, #05396B 51%, #05396B 100%);
 }
 
+.site-menu .container .row .left .container a{
+    z-index: 2;
+}
 
 .site-menu .container .row .right .img-border{
     align-items: center;
@@ -125,7 +137,60 @@ html{
 }
 
 
-
-
-
 /*--++++++++ start menu +++++++++--*/
+
+/*--++++++++ ABOUT ME +++++++++--*/
+
+
+
+
+
+
+
+
+
+/*--++++++++ ABOUT ME +++++++++--*/
+
+/*--++++++++ tech +++++++++--*/
+.tech .container .row {
+    padding: 5rem 0;
+}
+.tech .container .row h2{
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    color: #05396B;
+    text-shadow: 1px 1px 1px#EDF5E0;
+}
+.tech .container .row .lang .list-group-flush li{
+    background-color: #05396B;
+    margin: 5px;
+    height: 55px;
+    border-radius:10px;
+}
+
+.tech .container .row .lang .list-group-flush li span{
+    background-color: transparent;
+    color: #5CDB94;
+    font-weight: 900;
+    margin: 1px;
+}
+.tech .container .row .lang .list-group-flush li .progress{
+    background-color: #5CDB94;
+}
+.tech .container .row .lang .list-group-flush li .bar{
+    background-color: #05396B;
+    border: 3px #5CDB94 solid;
+}
+
+.tech .container .row .aoi ul li{
+    background-color: #05396B;
+    color: #5CDB94;
+    font-weight: bolder;
+    margin: 0.5rem;
+    font-size: larger;
+    border-radius:10px;
+}
+
+
+/*--++++++++ tech +++++++++--*/
