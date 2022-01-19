@@ -17,6 +17,7 @@ html{
 }
 body{
     overflow-x: hidden;
+    background-color: #5CDB94;
 }
 .svg1{
     position: absolute;
@@ -281,6 +282,77 @@ body{
 
 /* ++++++ PROJECTS +++++++++ */
 
+.projects .container{
+    padding: 1rem 0;
+    z-index: 2;
+}
+.projects .container  h2{
+    color: #05396B;
+    font-size:4rem ;
+    text-align: center;
+    margin: 1.2rem 0;
+    background-color: transparent;
+    font-family: 'Changa', sans-serif;
+    z-index: 2;
+    text-shadow: 2px 2px 2px #EDF5E0;
+
+}
+.projects .container .row{
+    padding: 0rem 0;
+    align-items: center;
+    justify-content: center;
+}
+.projects .container .row .cards {
+    background-color: #05396B;
+    border-radius: 20px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .projects .container .row .cards .card-body,.projects .container .row .cards .card-body .card-title, .projects .container .row .cards .card-body .card-text,.projects .container .row .cards .card-body a i{
+      background-color: #05396B;
+      color: #EDF5E0;
+  }
+  .projects .container .row .cards .card-body .card-title{
+      font-weight: bold;
+  }
+  .projects .container .row .cards  img{
+      border: 5px double #05396B;
+      padding: 0.1rem;
+      align-items: center;
+      margin: 0.1rem;
+      justify-content: center;
+      border-radius: 20px;
+  }
+  .projects .container .row .cards .card-body{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  .projects .container .row .cards .card-body .button{
+      background-color: #05396B;
+  }
+  .projects .container .row .cards .card-body a{
+      color: #EDF5E0;
+      border: 4px double #5CDB94;
+      font-weight: bold;
+      font-size: 1.2rem;
+  }
+  .projects .container .row .cards .card-body .button i{
+      margin: 0 0.5rem 0 0.1rem;
+      background-color: transparent;
+      text-shadow: 1.5px 2px 1px #05396B;
+      font-size: 1.2rem;
+  }
+  .projects .container .row .cards .card-body a:hover {
+    color: #05396B;
+    border: 4px double #05396B;
+    background-color: #5CDB94;
+}
 
 
   /* ++++++ PROJECTS +++++++++ */
