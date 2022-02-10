@@ -1,14 +1,11 @@
-function alldata(){
-    fetch("../data/projects.json")
-    .then(function(res){
-        return res.json();
-    })
-    .then(function(data){
-        for(var i=0;i<data.length;i++){
-            console.log(data[i]);
-            addproject(data[i])
-        }
-    })
+const allProjects = "https://api.npoint.io/5cb14c2bd9bb34dcdab5";
+
+ const myprojects =async() => {
+    const raw = await fetch(allProjects)
+    const projects = await raw.json();
+    for(var i=0;i<projects.length;i++){
+        addproject(projects[i])
+    }
 }
 
 const addproject =(x) =>{
@@ -32,7 +29,7 @@ const addproject =(x) =>{
     console.log(outputfield)
 }
 
-alldata();
+myprojects();
 
 
 
